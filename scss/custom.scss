@@ -1,0 +1,28 @@
+/***********************
+COLORES
+************************/
+$variable-rosa: hotpink;
+/************************
+VARIABLE MODIFICADA
+************************/
+$danger: $variable-rosa;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+/***********************
+LETRAS
+***********************/
+.letra-logo {
+    font-family: 'Roboto', sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/******************
+FOOTER
+********************/
+.pie {
+    text-decoration: none;
+}
+
+
