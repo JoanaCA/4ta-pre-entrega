@@ -1,3 +1,12 @@
+/**********************
+IMPORT
+**********************/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
 /***********************
 COLORES
 ************************/
@@ -8,14 +17,25 @@ VARIABLE MODIFICADA
 $danger: $variable-rosa;
 
 
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
 
 /***********************
-LETRAS
+tipografia
 ***********************/
+
+
 .letra-logo {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder
+    
 }
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+/***************
+Media-queries
+*****************/
+@media (min-width: 577px) and (max-width:991px){
 
+}
+@media (max-width:576px){
+
+ }
